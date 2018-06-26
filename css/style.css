@@ -1,0 +1,70 @@
+body{
+   background-color:#191500;
+}
+.search[type=text] {
+    width: 190px;
+    height:50px;
+    box-sizing: border-box;
+    border: 4px solid #FFD700;
+    border-radius: 1px;
+    font-size: 35px;
+    background-color: #e8f0f7;
+    color:#CFB53B;
+    box-shadow:1px 1px 50px#FFD700;
+   font-family: Papyrus, fantasy;
+    background-image: url('data:image/jpeg;base64,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');
+    background-position: -126px;
+    background-size:800px 800px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+.search[type=text]:focus {
+    width: 50%;
+      background-position: 600px;
+  
+}
+
+#picture{
+    width:400px;
+    height: auto;
+    padding: 30px;
+  
+}
+#picture:hover {
+  opacity: 0;
+  transition: all ease 3s;
+}
+
+.container{
+  text-align:center;
+
+ 
+  
+}
+li {
+  border:3px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color:#f7f7f4;
+  font-family: Papyrus, fantasy;
+}
+ul{
+  list-style-type:none;
+  margin:30px;
+}
+
+.end{
+   color:gold;
+   text-align:center;
+   font-family:"Amatic SC";
+   font-size:30px;
+   text-decoration: none;
+   margin-bottom:0px;
+   padding-top: 9%;
+}
+
+
+
